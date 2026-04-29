@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRAXIS CONSULTING – Tecnologia Que Transforma Negócios</title>
+    <meta
+      name="description"
+      content="Consultoria em TI em Cotia-SP. Soluções tecnológicas sob medida, cloud, segurança digital e gestão empresarial."
+    />
+    <meta name="company-name" content="PRAXIS CONSULTING LTDA" />
+    <meta name="company-phone" content="(13) 9742-6720" />
+    <meta name="company-email" content="BRUNO.A.SERRAO@GMAIL.COM" />
+    <meta
+      name="company-address"
+      content="R CACHOEIRA PAULISTA, 78, PARQUE PAULISTANO, COTIA - SP, CEP: 06.716-260"
+    />
+    <meta name="company-number" content="CNPJ: 48.311.566/0001-60" />
+    <style>
+      *,
+      :before,
+      :after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border-width: 0;
+        border-style: solid;
+      }
+      html {
+        line-height: 1.5;
+        -webkit-text-size-adjust: 100%;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        -webkit-tap-highlight-color: transparent;
+      }
+      body {
+        margin: 0;
+      }
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-size: inherit;
+        font-weight: inherit;
+      }
+      p {
+        margin: 0;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      button,
+      input,
+      textarea,
+      select {
+        font-family: inherit;
+        font-size: 100%;
+        font-weight: inherit;
+        line-height: inherit;
+        color: inherit;
+        margin: 0;
+        padding: 0;
+      }
+      button {
+        background-color: transparent;
+        background-image: none;
+        cursor: pointer;
+        -webkit-appearance: button;
+        appearance: button;
+      }
+      img,
+      svg {
+        display: block;
+      }
+
+      /* Wrapper */
+      .qx4-7bm {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: #f8fafc;
+        color: #0f172a;
+      }
+
+      /* ── HERO ── */
+      .fd2-9kp {
+        background: linear-gradient(
+          135deg,
+          #0f172a 0%,
+          #1e3a5f 55%,
+          #1d4ed8 100%
+        );
+        color: #fff;
+        padding: 5.5rem 1.5rem 4.5rem;
+        text-align: center;
+      }
+      .wn6-3rx {
+        max-width: 660px;
+        margin: 0 auto;
+      }
+      .jp8-5tz {
+        width: 72px;
+        height: 72px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 1.75rem;
+        font-size: 2rem;
+      }
+      .bk3-7wf {
+        font-size: 2.75rem;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        line-height: 1.1;
+        margin-bottom: 0.75rem;
+      }
+      .mg9-4nz {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.82);
+        margin-bottom: 0.4rem;
+        line-height: 1.5;
+      }
+      .vc7-2xk {
+        font-size: 0.875rem;
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 2.75rem;
+        letter-spacing: 0.03em;
+      }
+      .rj5-8dp {
+        display: inline-block;
+        background: #1d4ed8;
+        color: #fff;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.9rem 2.75rem;
+        border-radius: 50px;
+        border: none;
+        cursor: pointer;
+        transition:
+          background 0.2s,
+          transform 0.15s;
+        box-shadow: 0 4px 24px rgba(29, 78, 216, 0.45);
+        letter-spacing: 0.01em;
+      }
+      .rj5-8dp:hover {
+        background: #1e40af;
+        transform: translateY(-2px);
+      }
+
+      /* ── SERVICES ── */
+      .hn4-6qs {
+        padding: 5rem 1.5rem;
+        background: #fff;
+      }
+      .yw3-9fb {
+        text-align: center;
+        max-width: 520px;
+        margin: 0 auto 3rem;
+      }
+      .zk7-2mp {
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #1d4ed8;
+        margin-bottom: 0.5rem;
+      }
+      .xd5-4nw {
+        font-size: 2rem;
+        font-weight: 800;
+        color: #0f172a;
+        line-height: 1.2;
+      }
+      .qt8-6bj {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.5rem;
+        max-width: 980px;
+        margin: 0 auto;
+      }
+      .fm3-9xr {
+        background: #f8fafc;
+        border-radius: 1rem;
+        padding: 2rem 1.75rem;
+        border: 1px solid #e2e8f0;
+        transition:
+          box-shadow 0.2s,
+          transform 0.2s;
+      }
+      .fm3-9xr:hover {
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+        transform: translateY(-3px);
+      }
+      .nb6-7ks {
+        font-size: 2.25rem;
+        margin-bottom: 1rem;
+      }
+      .hp4-2wz {
+        font-size: 1.05rem;
+        font-weight: 700;
+        color: #0f172a;
+        margin-bottom: 0.4rem;
+      }
+      .lc9-5xb {
+        font-size: 0.875rem;
+        color: #64748b;
+        line-height: 1.65;
+      }
+
+      /* ── CONTACT ── */
+      .rw7-3qf {
+        padding: 5rem 1.5rem;
+        background: #f1f5f9;
+      }
+      .dm4-8yk {
+        max-width: 980px;
+        margin: 0 auto;
+      }
+      .gp6-2nj {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+      .gp6-2nj .zk7-2mp {
+        margin-bottom: 0.5rem;
+      }
+      .tc8-9xm {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: start;
+      }
+      .bf5-4wq {
+        background: #fff;
+        border-radius: 1rem;
+        padding: 2rem;
+        border: 1px solid #e2e8f0;
+      }
+      .bf5-4wq h3 {
+        font-size: 1.05rem;
+        font-weight: 700;
+        color: #0f172a;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 2px solid #f1f5f9;
+      }
+      .zr3-7hk {
+        display: flex;
+        gap: 0.875rem;
+        align-items: flex-start;
+        margin-bottom: 1.25rem;
+      }
+      .zr3-7hk:last-child {
+        margin-bottom: 0;
+      }
+      .qm9-6pd {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        background: #eff6ff;
+        border-radius: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+      }
+      .wx4-2nf {
+        flex: 1;
+      }
+      .wx4-2nf strong {
+        display: block;
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        color: #94a3b8;
+        margin-bottom: 0.2rem;
+      }
+      .wx4-2nf span {
+        font-size: 0.875rem;
+        color: #334155;
+        line-height: 1.6;
+      }
+      .wx4-2nf a:hover {
+        color: #1d4ed8;
+      }
+
+      /* Form */
+      .kj7-5rc {
+        background: #fff;
+        border-radius: 1rem;
+        padding: 2rem;
+        border: 1px solid #e2e8f0;
+      }
+      .kj7-5rc h3 {
+        font-size: 1.05rem;
+        font-weight: 700;
+        color: #0f172a;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 2px solid #f1f5f9;
+      }
+      .nh3-8xt {
+        margin-bottom: 1rem;
+      }
+      .nh3-8xt label {
+        display: block;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #475569;
+        margin-bottom: 0.35rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      .vp6-4qm {
+        width: 100%;
+        padding: 0.75rem 1rem;
+        border: 1.5px solid #e2e8f0;
+        border-radius: 0.5rem;
+        font-size: 0.9rem;
+        color: #0f172a;
+        background: #f8fafc;
+        outline: none;
+        transition:
+          border-color 0.2s,
+          box-shadow 0.2s,
+          background 0.2s;
+      }
+      .vp6-4qm:focus {
+        border-color: #1d4ed8;
+        box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.1);
+        background: #fff;
+      }
+      .vp6-4qm::placeholder {
+        color: #94a3b8;
+      }
+      .sc2-9bw {
+        resize: vertical;
+        min-height: 110px;
+      }
+      .jy7-3kp {
+        width: 100%;
+        padding: 0.875rem 1rem;
+        background: #1d4ed8;
+        color: #fff;
+        font-weight: 700;
+        font-size: 0.9rem;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        letter-spacing: 0.05em;
+        transition: background 0.2s;
+        margin-top: 0.25rem;
+      }
+      .jy7-3kp:hover {
+        background: #1e40af;
+      }
+
+      /* ── FOOTER ── */
+      .md5-6nx {
+        background: #0f172a;
+        color: #64748b;
+        padding: 2rem 1.5rem;
+        text-align: center;
+        font-size: 0.8rem;
+        line-height: 1.9;
+        margin-top: auto;
+      }
+      .md5-6nx strong {
+        color: #e2e8f0;
+        display: block;
+        font-size: 0.9rem;
+        margin-bottom: 0.1rem;
+      }
+
+      /* ── RESPONSIVE ── */
+      @media (max-width: 700px) {
+        .bk3-7wf {
+          font-size: 2rem;
+        }
+        .mg9-4nz {
+          font-size: 1rem;
+        }
+        .fd2-9kp {
+          padding: 4rem 1rem 3.5rem;
+        }
+        .hn4-6qs,
+        .rw7-3qf {
+          padding: 3.5rem 1rem;
+        }
+        .xd5-4nw {
+          font-size: 1.6rem;
+        }
+        .tc8-9xm {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="qx4-7bm">
+      <section class="fd2-9kp">
+        <div class="wn6-3rx">
+          <div class="jp8-5tz">💡</div>
+          <h1 class="bk3-7wf">PRAXIS CONSULTING</h1>
+          <p class="mg9-4nz">Tecnologia Que Transforma Negócios</p>
+          <p class="vc7-2xk">Consultoria em TI &middot; Cotia, SP</p>
+          <a href="#contato" class="rj5-8dp">Agende uma Consultoria</a>
+        </div>
+      </section>
+
+      <section class="hn4-6qs">
+        <div class="yw3-9fb">
+          <p class="zk7-2mp">Nossos Serviços</p>
+          <h2 class="xd5-4nw">Conheça o que oferecemos</h2>
+        </div>
+        <div class="qt8-6bj">
+          <div class="fm3-9xr">
+            <div class="nb6-7ks">💻</div>
+            <h3 class="hp4-2wz">Consultoria em TI</h3>
+            <p class="lc9-5xb">
+              Soluções tecnológicas sob medida para o seu negócio
+            </p>
+          </div>
+          <div class="fm3-9xr">
+            <div class="nb6-7ks">☁️</div>
+            <h3 class="hp4-2wz">Cloud &amp; Hospedagem</h3>
+            <p class="lc9-5xb">Infraestrutura escalável e segura na nuvem</p>
+          </div>
+          <div class="fm3-9xr">
+            <div class="nb6-7ks">🔒</div>
+            <h3 class="hp4-2wz">Segurança Digital</h3>
+            <p class="lc9-5xb">Proteção de dados e sistemas corporativos</p>
+          </div>
+          <div class="fm3-9xr">
+            <div class="nb6-7ks">📊</div>
+            <h3 class="hp4-2wz">Gestão Empresarial</h3>
+            <p class="lc9-5xb">
+              Consultoria estratégica e otimização de processos
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="rw7-3qf" id="contato">
+        <div class="dm4-8yk">
+          <div class="gp6-2nj">
+            <p class="zk7-2mp">Entre em Contato</p>
+            <h2 class="xd5-4nw">Fale Conosco</h2>
+          </div>
+          <div class="tc8-9xm">
+            <div class="bf5-4wq">
+              <h3>Informações de Contato</h3>
+              <div class="zr3-7hk">
+                <div class="qm9-6pd">📍</div>
+                <div class="wx4-2nf">
+                  <strong>Endereço</strong>
+                  <span
+                    >R CACHOEIRA PAULISTA, 78<br />PARQUE PAULISTANO<br />COTIA
+                    - SP &middot; CEP: 06.716-260</span
+                  >
+                </div>
+              </div>
+              <div class="zr3-7hk">
+                <div class="qm9-6pd">📞</div>
+                <div class="wx4-2nf">
+                  <strong>Telefone</strong>
+                  <span><a href="tel:+5513974267020">(13) 9742-6720</a></span>
+                </div>
+              </div>
+              <div class="zr3-7hk">
+                <div class="qm9-6pd">✉️</div>
+                <div class="wx4-2nf">
+                  <strong>E-mail</strong>
+                  <span
+                    ><a href="mailto:BRUNO.A.SERRAO@GMAIL.COM"
+                      >BRUNO.A.SERRAO@GMAIL.COM</a
+                    ></span
+                  >
+                </div>
+              </div>
+              <div class="zr3-7hk">
+                <div class="qm9-6pd">🏢</div>
+                <div class="wx4-2nf">
+                  <strong>CNPJ</strong>
+                  <span>48.311.566/0001-60</span>
+                </div>
+              </div>
+            </div>
+            <div class="kj7-5rc">
+              <h3>Envie uma Mensagem</h3>
+              <form
+                action="mailto:BRUNO.A.SERRAO@GMAIL.COM"
+                method="post"
+                enctype="text/plain"
+              >
+                <div class="nh3-8xt">
+                  <label for="nome">Seu Nome</label>
+                  <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    class="vp6-4qm"
+                    placeholder="Como podemos te chamar?"
+                    required
+                  />
+                </div>
+                <div class="nh3-8xt">
+                  <label for="tel">Telefone</label>
+                  <input
+                    type="tel"
+                    id="tel"
+                    name="telefone"
+                    class="vp6-4qm"
+                    placeholder="(00) 00000-0000"
+                  />
+                </div>
+                <div class="nh3-8xt">
+                  <label for="msg">Sua Mensagem</label>
+                  <textarea
+                    id="msg"
+                    name="mensagem"
+                    class="vp6-4qm sc2-9bw"
+                    placeholder="Descreva como podemos ajudar..."
+                  ></textarea>
+                </div>
+                <button type="submit" class="jy7-3kp">ENVIAR MENSAGEM</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="md5-6nx">
+        <strong>PRAXIS CONSULTING LTDA</strong>
+        CNPJ: 48.311.566/0001-60 &middot; COTIA - SP
+      </footer>
+    </div>
+  </body>
+</html>
